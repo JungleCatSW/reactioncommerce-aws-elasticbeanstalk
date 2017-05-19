@@ -1,0 +1,8 @@
+#!/bin/bash
+now=$(date +%m-%d_%Hh%Mm)
+zip -r -X "reactiondocker_$now.zip" . -x "*.DS_Store"
+
+echo #################################
+
+echo zipped to reactiondocker_$now.zip
+echo #################################

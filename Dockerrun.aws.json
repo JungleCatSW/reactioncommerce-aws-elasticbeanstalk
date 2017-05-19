@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "reactioncommerce/reaction:latest",
+    "Update": "false"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "443"
+    }
+  ],
+  "Logging": "/var/log/app.log"
+}
