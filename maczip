@@ -1,6 +1,6 @@
 #!/bin/bash
 now=$(date +%m-%d_%Hh%Mm)
-zip -r -X "reactiondocker_$now.zip" . -x "*.DS_Store"
+zip -r -X "reactiondocker_$now.zip" . -x "*.DS_Store" -x *.git*
 
 echo #################################
 
